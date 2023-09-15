@@ -9,7 +9,7 @@ const validateInput = (el) => {
   } else {
     debounceTimer = setTimeout(() => {
       generateResults(el.value, el);
-    }, 1000);
+    }, 500);
   }
 };
 
